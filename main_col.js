@@ -55,7 +55,7 @@ function getAndStoreConfigData() {
  
  console.log('Got options: ' + JSON.stringify(options));
 
- localStorage.bgcolor   = options.bgColor;
+ localStorage.bgColor   = options.bgColor;
  localStorage.minColor  = options.minColor;
  localStorage.hourColor = options.hourColor;
 
