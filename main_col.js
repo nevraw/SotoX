@@ -35,14 +35,10 @@ function loadOptions() {
   $minColorPicker[0].value = localStorage.minColor;
  }
  
- var $bgColorPicker = $('#hourColorPicker');
-
+ var $hourColorPicker = $('#hourColorPicker');
  if (localStorage.hourColor) {
   $hourColorPicker[0].value = localStorage.hourColor;
  }
-  
- 
- 
  
 } 
 
